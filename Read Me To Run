@@ -1,9 +1,1 @@
-composer install
-composer update
-npm install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate
-php artisan serve
-npm run dev
-php artisan storage:link
+docker-compose up --build
